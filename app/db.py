@@ -17,7 +17,3 @@ class Orders(Base):
     price_usd = Column("стоимость,$", Float)
     delivery_date = Column("срок поставки", Date)
     price_rub = Column("стоимость, руб", Float)
-
-
-def create_table():
-    Base.metadata.create_all(engine)

@@ -24,6 +24,10 @@
   Установка зависимостей:
 
 > pip install -r app/requirements.txt
+
+  Создание таблицы:
+
+> python app/create_table.py
   
   Запуск скрипта:
 
