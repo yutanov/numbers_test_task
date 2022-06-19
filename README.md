@@ -1,5 +1,7 @@
 # Numbers ТЗ
-<p>Скрипт отслеживает все изменения в [таблице Google](https://docs.google.com/spreadsheets/d/1jIfDMDdewd77iPKVvuvFKoNCJW69SL4y7jbyjSDgkHo/edit) Доступ на редактирование таблицы ограничен</p>
+<p>Скрипт отслеживает все изменения в 
+[таблице Google](https://docs.google.com/spreadsheets/d/1jIfDMDdewd77iPKVvuvFKoNCJW69SL4y7jbyjSDgkHo/edit) 
+Доступ на редактирование таблицы ограничен</p>
 <p>Все изменения сохраняются в бд PostgreSQL</p>
 <p>Скрипт добавляет цену в рублях РФ, переводя цену из долларов США по курсу ЦБ РФ</p>
 <p>Реализован механизм уведомлений в "Телеграм" при истечении срока доставки заказа</p>
