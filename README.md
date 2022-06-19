@@ -8,7 +8,27 @@
 
 ## Установка:
 <p>Для реализации механизма отправки уведоблений укажите ваш Telegram user id. Его можно узнать воспользовавшись ботом @getmyid_bot</p>
-<p>Id указывается в docker-compose.yml -> services -> web -> environment -> CHAT_ID</p>
+<p>Id указывается в .env -> CHAT_ID</p>
 <p>Далее необходимо написать любое сообщение в @numbers_test_tg_bot , именно этот бот и будет отправлять уведомления</p>
-> docker-compose build
-> docker-compose up
+
+<p>Postgresql заданы настройки:
+  
+  Имя бд: numbers_db
+
+  Владелец бд: postgres
+  
+  Пароль: postgres
+  
+  Хост: localhost
+  
+  Установка зависимостей:
+
+> pip install -r app/requirements.txt
+  
+  Запуск скрипта:
+
+> python app/worker.py
+  
+  Запуск view:
+  
+> python app/view.py
