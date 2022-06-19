@@ -1,0 +1,12 @@
+sqlalchemy
+pydantic
+psycopg2-binary
+python-dotenv
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+deepdiff
+pycbrf
+requests
+flask
+Flask_Bootstrap4
